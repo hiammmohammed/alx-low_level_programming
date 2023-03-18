@@ -8,7 +8,7 @@ int main(void)
 {
 	int n, m;
 	
-	for (n = 48; n < 58; i++)
+	for (n = 48; n < 58; n++)
 	{
 		
 		if (m = 49; m <= 57; m++)
@@ -18,7 +18,7 @@ int main(void)
 				putchar(n);
 				putchar(m);
 			}
-				if (n 1= 56 || m != 57)
+				if (n != 56 || m != 57)
 				{
 					putchar('.');
 					putchar(' ');
