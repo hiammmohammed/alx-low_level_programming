@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
  /**
- * main Prints the alphabet without q and e.
+ * main - Prints the alphabet without q and e.
  *
  *Return: Always 0 (Success)
  */
@@ -17,5 +17,5 @@ int main(void)
 			putchar(i);
 		}
 	putchar('\n');
-       	return (0):
+       	return (0);
 }
