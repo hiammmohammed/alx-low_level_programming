@@ -3,7 +3,7 @@
  * Print_last_digit - Prints the last digit
  * of an number
  *
- *@i: input number as an integer
+ * @i: input number as an integer
  *
  * Return: last digit
  */
@@ -17,7 +17,7 @@ if (l < 0)
 	_putchar(-l + 48);
 	return (-l);
 }
-else 
+else
 {
 	_putchar(l + 48);
 	return (l);
