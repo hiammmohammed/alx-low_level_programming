@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * Print_last_digit - Prints the last digit
- * of an number
+ * print_last_digit - Prints the last digit
+ * of a number
  *
- *@i: input number as an integer
+ * @n: input number as an integer
  *
- * Return: last digit
+ * Return: last digit.
  */
 int print_last_digit(int n)
 {
@@ -17,7 +17,7 @@ if (l < 0)
 	_putchar(-l + 48);
 	return (-l);
 }
-else 
+else
 {
 	_putchar(l + 48);
 	return (l);
