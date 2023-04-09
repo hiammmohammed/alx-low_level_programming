@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+
 /**
- * main - Entry point
+ * main - converts a string to an integer
  * @argc: count of arguments
  * @argv: array of string arguments
  *
@@ -12,10 +13,13 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0; i < argc; i++)
+if (argc == 3)
 {
-	printf("%s\n", argv[i]);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+}
+else
+{
+	puts("Error");
 }
 return (0);
 }
