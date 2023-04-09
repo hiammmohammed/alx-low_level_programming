@@ -5,7 +5,7 @@
  * @needle: input
  * Return: Always 0 (Success)
  */
-char _strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 for (; *haystack != '\0'; haystack++)
 
@@ -20,6 +20,7 @@ while (*l == *p && *p != '\0')
 	p++;
 }
 if (*p == '\0')
+{
 	return (haystack);
 }
 return (0);
