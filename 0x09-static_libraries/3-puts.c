@@ -5,9 +5,8 @@
  */
 void _puts(char *str)
 {
-while (*str 1 = 10)
+int main(void)
 {
-	_putchar(str++);
-}
-_putchar("\ni");
+	puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
