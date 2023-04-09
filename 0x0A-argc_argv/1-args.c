@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - prints the alphabit of the program
  * @argc: count of arguments
  * @argv: array of string arguments
  *
@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-(void) argv; /*ignore argv[]*/
+(void) argv;
 printf("%d\n", argc - 1);
 
 return (0);
