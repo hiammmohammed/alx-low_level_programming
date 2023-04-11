@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * alloc_grid - allocates a grid, make space and free space
  * @width: takes in width of grid
