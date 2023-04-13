@@ -22,7 +22,7 @@ if (n < len2)
 else
 	s = malloc(sizeof(char) * (len1 + n + 1));
 if (!s)
-	return (NUll);
+	return (NULL);
 while (i < len1)
 {
 	s[i] = s1[i];
