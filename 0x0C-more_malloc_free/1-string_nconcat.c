@@ -32,4 +32,4 @@ while (n < len2 && i < (len1 + n))
 	s[i++] = s2[j++];
 
 	s[i] = '\0';
-	return (s);
+	return (s[i]);
