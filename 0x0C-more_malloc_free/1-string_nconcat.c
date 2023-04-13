@@ -33,3 +33,4 @@ while (n < len2 && i < (len1 + n))
 
 	s[i] = '\0';
 return (s);
+}
