@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -17,7 +20,7 @@ list_t *add_node(list_t **head, const char *str)
 	new = malloc(sizeof(list_t));
 	if (!new)
 		return (NULL);
-	nwe->str = strdup(str);
+	new->str = strdup(str);
 	new->len = len;
 	new->next = (*head);
 	(*head) = new;
