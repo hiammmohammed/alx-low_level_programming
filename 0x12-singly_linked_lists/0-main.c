@@ -17,11 +17,11 @@ size_t n;
 
 head = &hello;
 new = malloc(sizeof(list_t));
-    if (new == NULL)
-    {
+if (new == NULL)
+{
     printf("Error\n");
     return (1);
-    }
+}
 new->str = strdup("Hello");
 new->len = 5;
 new->next = head;
